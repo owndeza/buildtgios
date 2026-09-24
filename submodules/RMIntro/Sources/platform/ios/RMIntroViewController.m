@@ -305,6 +305,8 @@ typedef enum {
         [self setupGL];
         [self.view addSubview:_glkView];
         
+        _glkView.hidden = true;
+        
         if (_logoImageView == nil)
         {
             UIImage *logoImage = [UIImage imageNamed:@"telegram_plane1"];
@@ -314,8 +316,8 @@ typedef enum {
                 _logoImageView.contentMode = UIViewContentModeScaleAspectFit;
                 _logoImageView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
                 _logoImageView.autoresizesSubviews = false;
-                _logoImageView.frame = CGRectMake(size / 2.0f - 46.0f, size / 2.0f - 33.0f, 92.0f, 66.0f);
-                [_glkView addSubview:_logoImageView];
+                _logoImageView.frame = CGRectMake(size / 2.0f - 45.0f, size / 2.0f - 45.0f, 90.0f, 90.0f);
+                [self.view addSubview:_logoImageView];
             }
         }
         
@@ -379,6 +381,8 @@ typedef enum {
     _pageScrollView.pagingEnabled = true;
     _pageScrollView.contentSize = CGSizeMake(_headlines.count * self.view.bounds.size.width, self.view.bounds.size.height);
     _pageScrollView.delegate = self;
+    _pageScrollView.scrollEnabled = false; // rebrand Вар.А: страницы отключены, листание не нужно
+    _pageScrollView.hidden = true; // rebrand Вар.А: скрыты листаемые страницы (fast/features/private) — только лого PNG
     [_wrapperView addSubview:_pageScrollView];
     
     _pageViews = [NSMutableArray array];
