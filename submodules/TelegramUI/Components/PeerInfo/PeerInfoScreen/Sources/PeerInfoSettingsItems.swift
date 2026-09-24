@@ -325,6 +325,11 @@ func settingsItems(data: PeerInfoScreenData?, context: AccountContext, presentat
     items[.support]!.append(PeerInfoScreenDisclosureItem(id: 2, text: presentationData.strings.Settings_Tips, icon: PresentationResourcesSettings.tips, action: {
         interaction.openSettings(.tips)
     }))
+    items[.support]!.append(PeerInfoScreenCommentItem(id: 3, text: "Builded by [deza](https://t.me/mydeza) and [evveniy](https://t.me/evveniy)", linkAction: { action in
+        if case let .tap(url) = action {
+            context.sharedContext.applicationBindings.openUrl(url)
+        }
+    }))
     
     var result: [(AnyHashable, [PeerInfoScreenItem])] = []
     for section in SettingsSection.allCases {

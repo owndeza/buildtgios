@@ -20,7 +20,7 @@ jobs:
 
       - name: Make config
         run: |
-          jq '.api_id="12345" | .api_hash="0123456789abcdef0123456789abcdef" | .enable_icloud=false | .enable_siri=false' \
+          jq ''.bundle_id="club.kernelgram.deza" | .api_id="12345" | .api_hash="0123456789abcdef0123456789abcdef" | .enable_icloud=false | .enable_siri=false' \
             build-system/appstore-configuration.json > config.json
           sed 's/"api_hash": ".*"/"api_hash": "***"/' config.json
 
