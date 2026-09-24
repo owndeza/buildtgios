@@ -106,6 +106,7 @@ typedef enum {
     
     UIView *_wrapperView;
     UIView *_startButton;
+    UIImageView *_logoImageView;
     
     bool _loadedView;
 }
@@ -303,6 +304,20 @@ typedef enum {
         
         [self setupGL];
         [self.view addSubview:_glkView];
+        
+        if (_logoImageView == nil)
+        {
+            UIImage *logoImage = [UIImage imageNamed:@"telegram_plane1"];
+            if (logoImage != nil)
+            {
+                _logoImageView = [[UIImageView alloc] initWithImage:logoImage];
+                _logoImageView.contentMode = UIViewContentModeScaleAspectFit;
+                _logoImageView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
+                _logoImageView.autoresizesSubviews = false;
+                _logoImageView.frame = CGRectMake(size / 2.0f - 46.0f, size / 2.0f - 33.0f, 92.0f, 66.0f);
+                [_glkView addSubview:_logoImageView];
+            }
+        }
         
         [self startTimer];
         _isOpenGLLoaded = true;
