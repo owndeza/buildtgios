@@ -1,4 +1,4 @@
-﻿//
+//
 //  animations.c
 //  IntroOpenGL
 //
@@ -1558,10 +1558,9 @@ void on_draw_frame() {
 
         telegram_plane.params.scale = xyzMake(cos(tt)*scale, scale, 1);
 
-            if (tt < D2R(125)) {
-                glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
-                // rebrand: скрыт GL-силуэт самолётика — вместо него _logoImageView (PNG лого)
-            }
+        if (tt < D2R(125)) {
+            glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
+        }
     }
 
 
@@ -2028,7 +2027,7 @@ void on_draw_frame() {
 
             if (tt < D2R(125)) {
                 glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
-                // rebrand Вар.А: силуэт самолётика скрыт, лого рисуется через _logoImageView (PNG)
+                draw_textured_shape(&telegram_plane, main_matrix, NORMAL_ONE);
             }
         }
     }
@@ -2054,7 +2053,7 @@ void on_draw_frame() {
 
             if (tt < D2R(125)) {
                 glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
-                // rebrand Вар.А: силуэт самолётика скрыт, лого рисуется через _logoImageView (PNG)
+                draw_textured_shape(&telegram_plane, main_matrix, NORMAL_ONE);
             }
         }
     }

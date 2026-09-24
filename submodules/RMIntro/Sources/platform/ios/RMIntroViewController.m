@@ -106,7 +106,6 @@ typedef enum {
     
     UIView *_wrapperView;
     UIView *_startButton;
-    UIImageView *_logoImageView;
     
     bool _loadedView;
 }
@@ -305,22 +304,6 @@ typedef enum {
         [self setupGL];
         [self.view addSubview:_glkView];
         
-        _glkView.hidden = true;
-        
-        if (_logoImageView == nil)
-        {
-            UIImage *logoImage = [UIImage imageNamed:@"telegram_plane1"];
-            if (logoImage != nil)
-            {
-                _logoImageView = [[UIImageView alloc] initWithImage:logoImage];
-                _logoImageView.contentMode = UIViewContentModeScaleAspectFit;
-                _logoImageView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
-                _logoImageView.autoresizesSubviews = false;
-                _logoImageView.frame = CGRectMake(size / 2.0f - 45.0f, size / 2.0f - 45.0f, 90.0f, 90.0f);
-                [self.view addSubview:_logoImageView];
-            }
-        }
-        
         [self startTimer];
         _isOpenGLLoaded = true;
     }
@@ -381,8 +364,6 @@ typedef enum {
     _pageScrollView.pagingEnabled = true;
     _pageScrollView.contentSize = CGSizeMake(_headlines.count * self.view.bounds.size.width, self.view.bounds.size.height);
     _pageScrollView.delegate = self;
-    _pageScrollView.scrollEnabled = false; // rebrand Вар.А: страницы отключены, листание не нужно
-    _pageScrollView.hidden = true; // rebrand Вар.А: скрыты листаемые страницы (fast/features/private) — только лого PNG
     [_wrapperView addSubview:_pageScrollView];
     
     _pageViews = [NSMutableArray array];
