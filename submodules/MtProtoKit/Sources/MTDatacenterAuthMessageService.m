@@ -45,12 +45,12 @@
 
 static NSString *const kCustomServerPublicKey =
     @"-----BEGIN RSA PUBLIC KEY-----\n"
-     "MIIBCgKCAQEA1tuW6m324uVap4T963JCraPeTObcRobvbEtgoqfOhoLPEu1gekVs\n"
-     "DmNhPiwnOjOpJepquNhjp4G1CoaAXCc9SAbTCHRWRqeK0AiLLXMpXIikCWQFDOvO\n"
-     "Fcg2D2G+XbWpjMCOSnnzWAgHpIDzfc8+C7iks8DX5994ggG5yLdZomGSkFvRxmPu\n"
-     "LA1UAwwaHt5u1RngxrF0Ex7asZ0wQ+OAEQ1l5IIIPfj2hz9850bbhjk58UiHYBK2\n"
-     "bRdyjpPkq+SduQBHqYXOSyVBaHKmCLOhNSpqydLrlOuPhpq9LJSEkTE18Iludg5D\n"
-     "aFGe+RoOS/uVe+schhODJQ8Yy5X//xlZRwIDAQAB\n"
+     "MIIBCgKCAQEAoU1qLbgOu1bpRpsLK1svCszHvBAGMLvJ4UwTZ/7KiV+zfWm7CVvr\n"
+     "u9TexMiEFl1oShqYPaA0LrvbTCey7mEeA+/6QSoho4QIO+gv2EsKBT/eTcMa4gGQ\n"
+     "hmrI3y0S6ykbt2v1y7QV/7Odg+/DWgMPabt6NfOLmA5MOv+iZnsFLtWQIBX93xe/\n"
+     "kyxANENIJXcA9WCfhoF0oFIKYKvsa5WLdYngSDCLAnSqpLAJauwE9CDffnr3vrcG\n"
+     "cRQm5DGy8GHxn2SiMhQA4MjZsJcpWfE6N5uUpy+YIh7ex3x1Zgyf7SBfRcQK22BK\n"
+     "GrDN5EF95MAEIAQD0PPUBgltIyWdHZ1fXwIDAQAB\n"
      "-----END RSA PUBLIC KEY-----";
 
 static NSArray<MTDatacenterAuthPublicKey *> *defaultPublicKeys(bool isProduction) {

@@ -529,11 +529,11 @@ func initializedNetwork(accountId: AccountRecordId, arguments: NetworkInitializa
             let seedAddressList: [Int: [String]]
             
             seedAddressList = [
-                1: ["129.159.223.99"],
-                2: ["129.159.223.99"],
-                3: ["129.159.223.99"],
-                4: ["129.159.223.99"],
-                5: ["129.159.223.99"]
+                1: ["31.77.251.111"],
+                2: ["31.77.251.111"],
+                3: ["31.77.251.111"],
+                4: ["31.77.251.111"],
+                5: ["31.77.251.111"]
             ]
             
             for (id, ips) in seedAddressList {
