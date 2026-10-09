@@ -1,4 +1,4 @@
-APP_NAME=KernelGram
+APP_NAME=MiroGram
 APP_BUNDLE_ID=ph.telegra.Telegraph
 APP_SPECIFIC_URL_SCHEME=tgapp
 

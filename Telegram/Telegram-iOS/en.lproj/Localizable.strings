@@ -401,23 +401,23 @@
 "Date.ChatDateHeaderYear" = "%1$@ %2$@, %3$@";
 
 // Tour
-"Tour.Title1" = "KernelGram";
+"Tour.Title1" = "MiroGram";
 "Tour.Text1" = "The world's **fastest** messaging app.\nIt is **free** and **secure**.\nv1.3";
 
 "Tour.Title2" = "Fast";
-"Tour.Text2" = "**KernelGram** delivers messages\nfaster than any other application.";
+"Tour.Text2" = "**MiroGram** delivers messages\nfaster than any other application.";
 
 "Tour.Title3" = "Powerful";
-"Tour.Text3" = "**KernelGram** has no limits on\nthe size of your media and chats.";
+"Tour.Text3" = "**MiroGram** has no limits on\nthe size of your media and chats.";
 
 "Tour.Title4" = "Secure";
-"Tour.Text4" = "**KernelGram** keeps your messages\nsafe from hacker attacks.";
+"Tour.Text4" = "**MiroGram** keeps your messages\nsafe from hacker attacks.";
 
 "Tour.Title5" = "Cloud-Based";
-"Tour.Text5" = "**KernelGram** lets you access your\nmessages from multiple devices.";
+"Tour.Text5" = "**MiroGram** lets you access your\nmessages from multiple devices.";
 
 "Tour.Title6" = "Free";
-"Tour.Text6" = "**KernelGram** provides free unlimited\ncloud storage for chats and media.\nBuilded by deza and evveniy";
+"Tour.Text6" = "**MiroGram** provides free unlimited\ncloud storage for chats and media.\nBuilded by deza and evveniy";
 
 "Tour.StartButton" = "Start Messaging";
 
@@ -11795,10 +11795,10 @@ Sorry for the inconvenience.";
 "Monetization.Intro.Bot.Ads.Text" = "Telegram can display ads in your bot.";
 
 "Monetization.Intro.Split.Title" = "50:50 Revenue Split";
-"Monetization.Intro.Split.Text" = "You receive 50% of the ad revenue in GRAM.";
+"Monetization.Intro.Split.Text" = "You receive 50% of the ad revenue in USD.";
 
 "Monetization.Intro.Withdrawal.Title" = "Flexible Withdrawals";
-"Monetization.Intro.Withdrawal.Text" = "You can withdraw your GRAM any time.";
+"Monetization.Intro.Withdrawal.Text" = "You can withdraw your USD any time.";
 
 "Monetization.Intro.Info.Title" = "What's #TON?";
 "Monetization.Intro.Info.Text" = "TON is a blockchain platform and cryptocurrency that Telegram uses for its high speed and commissions on transactions. [Learn More >]()";
@@ -12510,10 +12510,10 @@ Sorry for the inconvenience.";
 
 "Monetization.StarsRevenueTitle" = "REVENUE";
 
-"Monetization.TonBalanceTitle" = "GRAM BALANCE";
+"Monetization.TonBalanceTitle" = "USD BALANCE";
 "Monetization.StarsBalanceTitle" = "STARS BALANCE";
 
-"Monetization.TonTransactions" = "GRAM Transactions";
+"Monetization.TonTransactions" = "USD Transactions";
 "Monetization.StarsTransactions" = "Stars Transactions";
 
 "Monetization.BalanceStarsWithdraw" = "Withdraw via Fragment";
@@ -12599,9 +12599,9 @@ Sorry for the inconvenience.";
 
 "WebBrowser.Telegram" = "Telegram";
 
-"Monetization.Proceeds.Ton.Info" = "GRAM from your total balance can be used for ads or withdrawn as rewards 3 days after they are earned.";
+"Monetization.Proceeds.Ton.Info" = "USD from your total balance can be used for ads or withdrawn as rewards 3 days after they are earned.";
 "Monetization.Proceeds.Stars.Info" = "Stars from your total balance can be used for ads or withdrawn as rewards 21 days after they are earned.";
-"Monetization.Proceeds.TonAndStars.Info" = "Stars and GRAM from your total balance can be used for ads or withdrawn as rewards 21 and 3 days respectively after they are earned.";
+"Monetization.Proceeds.TonAndStars.Info" = "Stars and USD from your total balance can be used for ads or withdrawn as rewards 21 and 3 days respectively after they are earned.";
 
 "Stars.Transaction.FragmentUnknown_URL" = "https://fragment.com/stars";
 "Conversation.StatusBotSubscribers_1" = "1 user";
@@ -12873,7 +12873,7 @@ Sorry for the inconvenience.";
 "SendStarReactions.TermsOfServiceFooter" = "By sending Stars you agree to the [Terms of Service](https://telegram.org/tos/stars)";
 
 "PeerInfo.AllowedReactions.StarReactions" = "Enable Paid Reactions";
-"PeerInfo.AllowedReactions.StarReactionsFooter" = "Switch this on to let your subscribers set paid reactions with Telegram Stars, which you will be able to withdraw later as GRAM. [Learn More >](https://telegram.org/privacy)";
+"PeerInfo.AllowedReactions.StarReactionsFooter" = "Switch this on to let your subscribers set paid reactions with Telegram Stars, which you will be able to withdraw later as USD. [Learn More >](https://telegram.org/privacy)";
 
 "Chat.ToastStarsSent.Title_1" = "Star sent!";
 "Chat.ToastStarsSent.Title_any" = "Stars sent!";
@@ -12924,7 +12924,7 @@ Sorry for the inconvenience.";
 "Stars.Transaction.Giveaway.Stars_1" = "%@ Star";
 "Stars.Transaction.Giveaway.Stars_any" = "%@ Stars";
 
-"Stats.RevenueInTon" = "Revenue in GRAM";
+"Stats.RevenueInTon" = "Revenue in USD";
 "Stats.RevenueInStars" = "Revenue in Stars";
 "Stats.RevenueInUsd" = "Revenue in USD";
 
@@ -13205,10 +13205,10 @@ Sorry for the inconvenience.";
 
 "Resolve.ChannelErrorNotFound" = "Sorry, this channel doesn't seem to exist.";
 
-"Stats.TonBotRevenue.Title" = "GRAM Balance";
+"Stats.TonBotRevenue.Title" = "USD Balance";
 
 "PeerInfo.BotBalance.Title" = "BALANCE";
-"PeerInfo.BotBalance.Ton" = "Ton";
+"PeerInfo.BotBalance.Ton" = "USD";
 "PeerInfo.BotBalance.Stars" = "Stars";
 
 "Gallery.ToastVideoSpeedSwipe" = "Swipe sideways to adjust speed.";
@@ -14552,8 +14552,8 @@ Sorry for the inconvenience.";
 
 "Chat.PostApproval.DetailStatus.StarsAmount_1" = "# Star";
 "Chat.PostApproval.DetailStatus.StarsAmount_any" = "# Stars";
-"Chat.PostApproval.DetailStatus.TonAmount_1" = "# GRAM";
-"Chat.PostApproval.DetailStatus.TonAmount_any" = "# GRAM";
+"Chat.PostApproval.DetailStatus.TonAmount_1" = "# USD";
+"Chat.PostApproval.DetailStatus.TonAmount_any" = "# USD";
 
 "Chat.PostApproval.DetailStatus.PostedPaid" = "**%1$@** received **%2$@** for publishing this post";
 "Chat.PostApproval.DetailStatus.UserFailedRefunded" = "Suggested post was refunded because you didn't have enough funds";
@@ -14577,9 +14577,9 @@ Sorry for the inconvenience.";
 "Chat.PostApproval.Message.BuyStars" = "Buy Stars";
 
 "Chat.PostApproval.Message.UserAgreementPriceStars" = "💰 You have been charged %1$@.\n\n⌛ **%2$@** will receive the Stars once the post has been live for 24 hours.\n\n🔄 If admins remove the post before it has been live for 24 hours, the your Stars will be refunded.";
-"Chat.PostApproval.Message.UserAgreementPriceTon" = "💰 You have been charged %1$@.\n\n⌛ **%2$@** will receive GRAM once the post has been live for 24 hours.\n\n🔄 If admins the post before it has been live for 24 hours, your GRAM will be refunded.";
+"Chat.PostApproval.Message.UserAgreementPriceTon" = "💰 You have been charged %1$@.\n\n⌛ **%2$@** will receive USD once the post has been live for 24 hours.\n\n🔄 If admins the post before it has been live for 24 hours, your USD will be refunded.";
 "Chat.PostApproval.Message.AdminAgreementPriceStars" = "💰 The user have been charged %1$@.\n\n⌛ **%2$@** will receive the Stars once the post has been live for 24 hours.\n\n🔄 If you remove the post before it has been live for 24 hours, the user's Stars will be refunded.";
-"Chat.PostApproval.Message.AdminAgreementPriceTon" = "💰 The user have been charged %1$@.\n\n⌛ **%2$@** will receive GRAM once the post has been live for 24 hours.\n\n🔄 If you remove the post before it has been live for 24 hours, the user's GRAM will be refunded.";
+"Chat.PostApproval.Message.AdminAgreementPriceTon" = "💰 The user have been charged %1$@.\n\n⌛ **%2$@** will receive USD once the post has been live for 24 hours.\n\n🔄 If you remove the post before it has been live for 24 hours, the user's USD will be refunded.";
 "Chat.PostApproval.Message.AdminDeclined" = "";
 "Chat.PostApproval.Message.AdminDeclinedComment" = "%@";
 
@@ -14619,19 +14619,19 @@ Sorry for the inconvenience.";
 "Chat.PostSuggestion.Suggest.InputSubtitleEmpty" = "Tap to offer a price for publishing";
 "Chat.PostSuggestion.Suggest.InputSubtitleAnytime" = "%@ for publishing anytime";
 
-"BalanceNeeded.FragmentTitle" = "%@ GRAM Needed";
+"BalanceNeeded.FragmentTitle" = "%@ USD Needed";
 "BalanceNeeded.FragmentSubtitle" = "You can add funds to your balance via the third-party platform Fragment.";
 "BalanceNeeded.FragmentAction" = "Add Funds via Fragment";
 
-"Settings.Ton.Description" = "Use GRAM to submit post suggestions to channels on Telegram.";
+"Settings.Ton.Description" = "Use USD to submit post suggestions to channels on Telegram.";
 
-"Settings.TransactionsTon.Title" = "GRAM";
-"Settings.TransactionsTon.Subtitle" = "Use GRAM to submit post suggestions to channels on Telegram.";
+"Settings.TransactionsTon.Title" = "USD";
+"Settings.TransactionsTon.Subtitle" = "Use USD to submit post suggestions to channels on Telegram.";
 
 "Chat.DeletePaidMessageStars.Title" = "Stars Will Be Lost";
 "Chat.DeletePaidMessageStars.Text" = "You won't receive **Stars** for this post if you delete it now. The post must remain visible for at least **24 hours** after publication.";
-"Chat.DeletePaidMessageTon.Title" = "GRAM Will Be Lost";
-"Chat.DeletePaidMessageTon.Text" = "You won't receive **GRAM** for this post if you delete it now. The post must remain visible for at least **24 hours** after publication.";
+"Chat.DeletePaidMessageTon.Title" = "USD Will Be Lost";
+"Chat.DeletePaidMessageTon.Text" = "You won't receive **USD** for this post if you delete it now. The post must remain visible for at least **24 hours** after publication.";
 "Chat.DeletePaidMessage.Action" = "Delete Anyway";
 
 "Chat.PostSuggestion.Reject.Title" = "Comment";
@@ -14639,7 +14639,7 @@ Sorry for the inconvenience.";
 
 "Chat.PostSuggestion.Approve.AdminConfirmationText" = "Do you really want to publish this post from **%@**?";
 "Chat.PostSuggestion.Approve.AdminConfirmationPriceStars" = "You will receive %1$@ Stars (%2$@%)\nfor publishing this post. It must remain visible for **24** hours after publication.";
-"Chat.PostSuggestion.Approve.AdminConfirmationPriceTon" = "You will receive %1$@ GRAM (%2$@%)\nfor publishing this post. It must remain visible for **24** hours after publication.";
+"Chat.PostSuggestion.Approve.AdminConfirmationPriceTon" = "You will receive %1$@ USD (%2$@%)\nfor publishing this post. It must remain visible for **24** hours after publication.";
 
 "Chat.PostSuggestion.Approve.UserConfirmationText" = "Do you really want to publish this post?";
 
@@ -14654,7 +14654,7 @@ Sorry for the inconvenience.";
 "Chat.PostSuggestion.SetTime.NoTimeAction" = "Send Anytime";
 
 "Chat.PostSuggestion.ApproveTime.AdminConfirmationPriceStars" = "You will receive %1$@ Stars (%2$@%)\nfor publishing this post.";
-"Chat.PostSuggestion.ApproveTime.AdminConfirmationPriceTon" = "You will receive %1$@ GRAM (%2$@%)\nfor publishing this post.";
+"Chat.PostSuggestion.ApproveTime.AdminConfirmationPriceTon" = "You will receive %1$@ USD (%2$@%)\nfor publishing this post.";
 
 "Chat.PostSuggestion.StarsDisclaimer" = "Transactions in **Stars** may be reversed by the payment provider within **21** days. Only accept Stars from people you trust.";
 
@@ -14668,16 +14668,16 @@ Sorry for the inconvenience.";
 "Chat.PostSuggestion.Suggest.TitleCreate" = "Suggest Terms";
 "Chat.PostSuggestion.Suggest.TitleEdit" = "Suggest Changes";
 "Chat.PostSuggestion.Suggest.PriceSectionStars" = "ENTER A PRICE IN STARS";
-"Chat.PostSuggestion.Suggest.PriceSectionTon" = "ENTER A PRICE IN GRAM";
+"Chat.PostSuggestion.Suggest.PriceSectionTon" = "ENTER A PRICE IN USD";
 "Chat.PostSuggestion.Suggest.PricePlaceholder" = "Price";
 "Chat.PostSuggestion.Suggest.OfferStars" = "Offer Stars";
-"Chat.PostSuggestion.Suggest.OfferTon" = "Offer GRAM";
+"Chat.PostSuggestion.Suggest.OfferTon" = "Offer USD";
 "Chat.PostSuggestion.Suggest.RequestStars" = "Request Stars";
-"Chat.PostSuggestion.Suggest.RequestTon" = "Request GRAM";
+"Chat.PostSuggestion.Suggest.RequestTon" = "Request USD";
 "Chat.PostSuggestion.Suggest.RequestDescriptionStars" = "Choose how many Stars you charge for the message.";
-"Chat.PostSuggestion.Suggest.RequestDescriptionTon" = "Choose how many GRAM you charge for the message.";
+"Chat.PostSuggestion.Suggest.RequestDescriptionTon" = "Choose how many USD you charge for the message.";
 "Chat.PostSuggestion.Suggest.OfferDescriptionStars" = "Choose how many Stars you want to offer %@ to publish this message.";
-"Chat.PostSuggestion.Suggest.OfferDescriptionTon" = "Choose how many GRAM you want to offer %@ to publish this message.";
+"Chat.PostSuggestion.Suggest.OfferDescriptionTon" = "Choose how many USD you want to offer %@ to publish this message.";
 "Chat.PostSuggestion.Suggest.OfferDateDescription" = "Select the date and time you want your message to be published.";
 "Chat.PostSuggestion.Suggest.EditDateDescription" = "Select the date and time you want to publish the message.";
 "Chat.PostSuggestion.Suggest.OfferButtonPrice" = "Offer  %@";
@@ -14692,14 +14692,14 @@ Sorry for the inconvenience.";
 "Premium.Week.SignUp" = "Sign up for %@";
 "Premium.Week.SignUpInfo" = "Get Telegram Premium for 1 week";
 
-"Settings.MyTon" = "My GRAM";
+"Settings.MyTon" = "My USD";
 
-"Stars.Gift.Ton.Text" = "Use GRAM to submit post suggestions to channels on Telegram.";
-"Stars.Ton.Title" = "GRAM";
-"Stars.Ton.Description" = "Use GRAM to submit post suggestions to channels on Telegram.";
+"Stars.Gift.Ton.Text" = "Use USD to submit post suggestions to channels on Telegram.";
+"Stars.Ton.Title" = "USD";
+"Stars.Ton.Description" = "Use USD to submit post suggestions to channels on Telegram.";
 
-"Notification.Ton.Subtitle" = "Use GRAM to submit post suggestions to channels.";
-"Notification.Ton.SubtitleYou" = "With GRAM, %@ will be able to submit post suggestions to channels.";
+"Notification.Ton.Subtitle" = "Use USD to submit post suggestions to channels.";
+"Notification.Ton.SubtitleYou" = "With USD, %@ will be able to submit post suggestions to channels.";
 
 "Chat.Todo.Message.Completed_1" = "%@ of {count} completed";
 "Chat.Todo.Message.Completed_any" = "%@ of {count} completed";
@@ -14787,7 +14787,7 @@ Sorry for the inconvenience.";
 "FaceScan.Instruction.Position" = "Position your face\nwithin the frame";
 "FaceScan.Instruction.Rotate" = "Move your head slowly to\ncomplete the circle";
 
-"Gift.Buy.Confirm.BuyForTon" = "Buy for %@ GRAM";
+"Gift.Buy.Confirm.BuyForTon" = "Buy for %@ USD";
 
 "Gift.View.DisplayedInfoNew" = "This gift is visible. [Hide from Profile >]()";
 "Gift.View.HiddenInfoNew" = "This gift is hidden. [Show on Profile >]()";
@@ -14804,15 +14804,15 @@ Sorry for the inconvenience.";
 
 "Gift.Buy.AcceptsTonOnly" = "The seller only accepts\nGRAM as payment.";
 "Gift.Buy.PayInStars" = "Pay in Stars";
-"Gift.Buy.PayInTon" = "Pay in GRAM";
-"Gift.Buy.PayInTon.Tooltip" = "Pay with GRAM to skip the 21-day wait before transferring the gift again.";
+"Gift.Buy.PayInTon" = "Pay in USD";
+"Gift.Buy.PayInTon.Tooltip" = "Pay with USD to skip the 21-day wait before transferring the gift again.";
 
 "Premium.PremiumGift.Title" = "Premium Gift";
 "Premium.PremiumGift.Description" = "Subscribe to **Telegram Premium** to send up to **5** of these gifts and unlock access to multiple additional features.";
 
-"Stars.SellGift.TonAmountTitle" = "PRICE IN GRAM";
-"Stars.SellGift.OnlyTon" = "Only Accept GRAM";
-"Stars.SellGift.OnlyTonInfo" = "If the buyer pays you in GRAM, there's no risk of refunds, unlike with Stars payments.";
+"Stars.SellGift.TonAmountTitle" = "PRICE IN USD";
+"Stars.SellGift.OnlyTon" = "Only Accept USD";
+"Stars.SellGift.OnlyTonInfo" = "If the buyer pays you in USD, there's no risk of refunds, unlike with Stars payments.";
 
 "Chat.ViewCollection" = "VIEW COLLECTION";
 
@@ -14910,8 +14910,8 @@ Sorry for the inconvenience.";
 
 "Gift.Options.Gift.Premium" = "premium";
 
-"Stars.Transaction.FragmentTopUpTon.Title" = "GRAM Top-Up";
-"Stars.Transaction.FragmentWithdrawalTon.Title" = "GRAM Withdrawal";
+"Stars.Transaction.FragmentTopUpTon.Title" = "USD Top-Up";
+"Stars.Transaction.FragmentWithdrawalTon.Title" = "USD Withdrawal";
 
 "Stars.Transaction.SearchFee.Title" = "Extra Search Fee";
 "Stars.Intro.Transaction.SearchFee" = "Extra Search Fee";
@@ -14995,7 +14995,7 @@ Sorry for the inconvenience.";
 "Ton.LifetimeProceeds" = "Total Lifetime Proceeds";
 
 "Ton.WithdrawViaFragment" = "Withdraw via Fragment";
-"Ton.WithdrawViaFragment.Info" = "Collect your GRAM using Fragment. [Learn More >]()";
+"Ton.WithdrawViaFragment.Info" = "Collect your USD using Fragment. [Learn More >]()";
 "Ton.WithdrawViaFragment.Info_URL" = "https://telegram.org/tos/bot-developers#6-2-2-tpa-balance";
 
 "MESSAGE_GIFT_THEME" = "%1$@ changed theme to %2$@";
@@ -15619,15 +15619,15 @@ Error: %8$@";
 
 "Gift.Offer.Title" = "Offer to Buy";
 "Gift.Offer.OfferStars" = "Offer Stars";
-"Gift.Offer.OfferTon" = "Offer GRAM";
+"Gift.Offer.OfferTon" = "Offer USD";
 "Gift.Offer.PriceSectionStars" = "STARS TO OFFER";
-"Gift.Offer.PriceSectionTon" = "GRAM TO OFFER";
+"Gift.Offer.PriceSectionTon" = "USD TO OFFER";
 "Gift.Offer.PricePlaceholder" = "Price";
 "Gift.Offer.PriceDescriptionStars" = "Enter the number of Stars you'd like to offer for **%@**.";
-"Gift.Offer.PriceDescriptionTon" = "Enter the number of GRAM you'd like to offer for **%@**.";
+"Gift.Offer.PriceDescriptionTon" = "Enter the number of USD you'd like to offer for **%@**.";
 "Gift.Offer.Duration" = "Offer Duration";
 "Gift.Offer.DurationDescriptionStars" = "Choose how long **%@** can accept your offer. When the time expires, your Stars will be automatically refunded.";
-"Gift.Offer.DurationDescriptionTon" = "Choose how long **%@** can accept your offer. When the time expires, your GRAM will be automatically refunded.";
+"Gift.Offer.DurationDescriptionTon" = "Choose how long **%@** can accept your offer. When the time expires, your USD will be automatically refunded.";
 "Gift.Offer.Duration.Hours_1" = "%@ Hour";
 "Gift.Offer.Duration.Hours_any" = "%@ Hours";
 "Gift.Offer.Offer" = "Offer";
@@ -15764,7 +15764,7 @@ Error: %8$@";
 "Gift.View.OnSale" = "On sale for %@";
 
 "Gift.Store.Balance.MyStars" = "My Stars";
-"Gift.Store.Balance.MyTon" = "My GRAM";
+"Gift.Store.Balance.MyTon" = "My USD";
 
 "Resolve.GiftErrorNotFound" = "Sorry, this gift doesn't seem to exist.";
 "Resolve.GiftErrorBurned" = "Sorry, this gift has already been burned.";
@@ -15848,7 +15848,7 @@ Error: %8$@";
 "Gift.Sell.Confirm.Text" = "Do you want to list **%1$@** for sale at %2$@?";
 "Gift.Sell.Confirm.ListFor_1" = "List for %@ Star";
 "Gift.Sell.Confirm.ListFor_any" = "List for %@ Stars";
-"Gift.Sell.Confirm.ListForTon" = "List for %@ GRAM";
+"Gift.Sell.Confirm.ListForTon" = "List for %@ USD";
 
 "Notification.CopyProtection.Enabled" = "%1$@ disabled sharing in this chat";
 "Notification.CopyProtection.EnabledYou" = "You disabled sharing in this chat";
@@ -16397,14 +16397,14 @@ Error: %8$@";
 
 "WebApp.GuardDisclaimerText" = "**%1$@** uses **%2$@** to welcome new members. You must agree to the Terms of Use of mini apps to continue.";
 
-"Currency.Grams_1" = "%@ Gram";
-"Currency.Grams_any" = "%@ Grams";
+"Currency.Grams_1" = "%@ USD";
+"Currency.Grams_any" = "%@ USD";
 
-"Gift.Buy.Confirm.BuyForGrams_1" = "Buy for %@ Gram";
-"Gift.Buy.Confirm.BuyForGrams_any" = "Buy for %@ Grams";
+"Gift.Buy.Confirm.BuyForGrams_1" = "Buy for %@ USD";
+"Gift.Buy.Confirm.BuyForGrams_any" = "Buy for %@ USD";
 
-"Gift.Sell.Confirm.ListForGrams_1" = "List for %@ Gram";
-"Gift.Sell.Confirm.ListForGrams_any" = "List for %@ Grams";
+"Gift.Sell.Confirm.ListForGrams_1" = "List for %@ USD";
+"Gift.Sell.Confirm.ListForGrams_any" = "List for %@ USD";
 
 "Chat.PrivateMessageSentTimestamp.Date" = "sent %@";
 "Chat.PrivateMessageSentTimestamp.TodayAt" = "sent today at %@";

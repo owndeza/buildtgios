@@ -206,7 +206,7 @@ public final class SuggestPostAccessoryPanelNode: AccessoryPanelNode {
         }
         
         var inlineTextTonImage: UIImage?
-        if let current = self.inlineTextTonImage, current.1 == self.theme.list.itemAccentColor {
+        if let current = self.inlineTextTonImage, current.1 == UIColor(rgb: 0x34C759) {
             inlineTextTonImage = current.0
         } else {
             if let image = UIImage(bundleImageName: "Ads/TonMedium") {
@@ -219,9 +219,9 @@ public final class SuggestPostAccessoryPanelNode: AccessoryPanelNode {
                     }
                     
                     image.draw(at: CGPoint(x: tonInsets.left, y: tonInsets.top))
-                }), color: self.theme.list.itemAccentColor)!.withRenderingMode(.alwaysOriginal)
+                }), color: UIColor(rgb: 0x34C759))!.withRenderingMode(.alwaysOriginal)
                 inlineTextTonImage = inlineTextTonImageValue
-                self.inlineTextTonImage = (inlineTextTonImageValue, self.theme.list.itemAccentColor)
+                self.inlineTextTonImage = (inlineTextTonImageValue, UIColor(rgb: 0x34C759))
             }
         }
         

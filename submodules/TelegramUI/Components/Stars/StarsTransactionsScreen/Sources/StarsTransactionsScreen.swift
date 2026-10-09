@@ -469,7 +469,24 @@ final class StarsTransactionsScreenComponent: Component {
             
             let headerComponent: AnyComponent<Empty>
             if component.starsContext.ton {
-                headerComponent = AnyComponent(PremiumDiamondComponent(theme: environment.theme))
+                headerComponent = AnyComponent(Image(
+                    image: generateImage(CGSize(width: 180.0, height: 180.0), rotatedContext: { size, context in
+                        context.clear(CGRect(origin: .zero, size: size))
+                        UIGraphicsPushContext(context)
+                        defer {
+                            UIGraphicsPopContext()
+                        }
+                        let string = "$" as NSString
+                        let attributes: [NSAttributedString.Key: Any] = [
+                            .font: Font.bold(170.0),
+                            .foregroundColor: UIColor(rgb: 0x34C759)
+                        ]
+                        let textSize = string.size(withAttributes: attributes)
+                        string.draw(at: CGPoint(x: floor((size.width - textSize.width) / 2.0), y: floor((size.height - textSize.height) / 2.0)), withAttributes: attributes)
+                    }),
+                    size: CGSize(width: min(414.0, availableSize.width), height: 220.0),
+                    contentMode: .scaleAspectFit
+                ))
             } else {
                 headerComponent = AnyComponent(PremiumStarComponent(
                     theme: environment.theme,
@@ -576,7 +593,7 @@ final class StarsTransactionsScreenComponent: Component {
                 transition: .immediate,
                 component: AnyComponent(BundleIconComponent(
                     name: component.starsContext.ton ? "Ads/TonBig" : "Premium/Stars/StarSmall",
-                    tintColor: component.starsContext.ton ? environment.theme.list.itemAccentColor : nil,
+                    tintColor: component.starsContext.ton ? UIColor(rgb: 0x34C759) : nil,
                     maxSize: component.starsContext.ton ? CGSize(width: 12.0, height: 12.0) : nil
                 )),
                 environment: {},
@@ -758,7 +775,7 @@ final class StarsTransactionsScreenComponent: Component {
                             currency: component.starsContext.ton ? .ton : .stars,
                             rate: nil,
                             actionTitle: component.starsContext.ton ? environment.strings.Ton_WithdrawViaFragment : (withdrawAvailable ? environment.strings.Stars_Intro_BuyShort : environment.strings.Stars_Intro_Buy),
-                            actionAvailable: (!premiumConfiguration.areStarsDisabled && !premiumConfiguration.isPremiumDisabled),
+                            actionAvailable: !component.starsContext.ton && !premiumConfiguration.areStarsDisabled && !premiumConfiguration.isPremiumDisabled,
                             actionIsEnabled: true,
                             actionIcon: component.starsContext.ton ? nil : PresentationResourcesItemList.itemListRoundTopupIcon(environment.theme),
                             action: { [weak self] in

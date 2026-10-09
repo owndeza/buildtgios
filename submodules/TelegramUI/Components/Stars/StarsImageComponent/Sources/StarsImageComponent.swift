@@ -952,7 +952,7 @@ public final class StarsImageComponent: Component {
                     case .star:
                         smallIconView.tintColor = nil
                     case .ton:
-                        smallIconView.tintColor = UIColor(rgb: 0x30A1F5)
+                        smallIconView.tintColor = UIColor(rgb: 0x34C759)
                     }
                     smallIconOutlineView.frame = smallIconFrame
                 }

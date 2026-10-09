@@ -260,7 +260,7 @@ private final class ValueItemNode: ASDisplayNode {
                     
                     if themeUpdated || iconNameUpdated {
                         if iconTinted {
-                            iconNode.image = generateTintedImage(image: UIImage(bundleImageName: iconName), color: UIColor(rgb: 0x30A1F5))
+                            iconNode.image = generateTintedImage(image: UIImage(bundleImageName: iconName), color: UIColor(rgb: 0x34C759))
                         } else {
                             iconNode.image = UIImage(bundleImageName: iconName)
                         }

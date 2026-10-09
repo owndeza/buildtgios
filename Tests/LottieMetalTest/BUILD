@@ -102,7 +102,7 @@ plist_fragment(
     <key>CFBundleIdentifier</key>
     <string>ph.telegra.Telegraph</string>
     <key>CFBundleName</key>
-    <string>KernelGram</string>
+    <string>MiroGram</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleSignature</key>

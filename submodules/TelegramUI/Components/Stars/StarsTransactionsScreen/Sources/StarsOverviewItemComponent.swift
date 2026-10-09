@@ -77,7 +77,7 @@ final class StarsOverviewItemComponent: Component {
             if self.icon.image == nil {
                 switch component.value.currency {
                 case .ton:
-                    self.icon.image = generateTintedImage(image: UIImage(bundleImageName: "Ads/TonMedium"), color: UIColor(rgb: 0x30A1F5))
+                    self.icon.image = generateTintedImage(image: UIImage(bundleImageName: "Ads/TonMedium"), color: UIColor(rgb: 0x34C759))
                 case .stars:
                     self.icon.image = UIImage(bundleImageName: "Premium/Stars/StarMedium")
                 }
